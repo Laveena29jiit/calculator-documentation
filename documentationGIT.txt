@@ -1,0 +1,74 @@
+Function Documentation
+1)main
+Description: The entry point of the program. It handles user input, determines the desired operation, and calls the appropriate function to perform the calculation.
+Return Value: int - Returns 0 upon successful execution.
+Logic:
+Prompts the user to enter the first number.
+Prompts the user to choose an arithmetic operation.
+Calls the respective function based on the chosen operation.
+
+2)plus
+Description: Adds two floating-point numbers.
+Parameters:float n1: The first number.
+Return Value: None
+Logic:
+Prompts the user to enter the second number.
+Calculates the sum of n1 and the second number.
+Displays the result.
+Writes the result to a file (calHistory.txt).
+
+3)minus
+Description: Subtracts the second floating-point number from the first.
+Parameters:
+float n1: The first number.
+Return Value: None
+Logic:Prompts the user to enter the second number.
+Calculates the difference between n1 and the second number.
+Displays the result.
+Writes the result to a file (calHistory.txt).
+
+
+4)multiplication
+Description: Multiplies two floating-point numbers.
+Parameters:
+float n1: The first number.
+Return Value: None
+Logic:
+Prompts the user to enter the second number.
+Calculates the product of n1 and the second number.
+Displays the result.
+Writes the result to a file (calHistory.txt).
+
+
+5)divide
+Description: Divides the first floating-point number by the second.
+Parameters:
+float n1: The first number.
+Return Value: None
+Logic:
+Prompts the user to enter the second number.
+Checks if the second number is zero. If it is, displays an error message.
+If the second number is not zero, calculates the quotient of n1 divided by the second number.
+Displays the result.
+Writes the result to a file (calHistory.txt).
+
+6)sqroot
+Description: Calculates the square root of a floating-point number.
+Parameters:
+float n1: The number for which the square root is to be calculated.
+Return Value: None
+Logic:
+Calculates the square root of n1.
+Displays the result.
+Writes the result to a file (calHistory.txt).
+
+7)power
+Description: Raises a floating-point number to the power of a second floating-point number.
+Parameters:
+float n1: The base number.
+Return Value: None
+Logic:
+Prompts the user to enter the exponent.
+Calculates n1 raised to the power of the exponent.
+Displays the result.
+Writes the result to a file (calHistory.txt).
